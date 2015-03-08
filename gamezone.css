@@ -1,0 +1,21 @@
+#container {
+	padding: 10px;
+	margin: -320px;
+	position: absolute;
+	width: 640px;
+	height: 640px;
+	background: #36f;
+	top: 50%;
+	left: 50%;
+}
+.fadeelem {
+	margin: 10px;
+	width: 135px;
+	-webkit-transition: background, opacity 0.5s linear;
+	-moz-transition: background, opacity 0.5s linear;
+	transition: background, opacity 0.5s linear;
+}
+
+#d0, #d1, #d2, #d3, #d4, #d5, #d6, #d7, #d8, #d9, #d10, #d11, #d12, #d13, #d14, #d15, #d16, #d17, #d18, #d19, #d20 {
+	opacity: 0;
+}
